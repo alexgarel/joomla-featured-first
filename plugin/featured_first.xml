@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.5" type="plugin" group="system" method="upgrade">
+	<name>plg_system_featured_first</name>
+	<author>Alex Garel</author>
+	<creationDate>August 2016</creationDate>
+	<copyright>Nope</copyright>
+	<license>http://www.gnu.org/licenses/gpl-3.0.html GNU/GPL</license>
+	<authorEmail></authorEmail>
+	<authorUrl></authorUrl>
+	<version>0.1.0</version>
+	<description>PLG_FEATURED_FIRST_XML_DESCRIPTION</description>
+	<files>
+		<filename plugin="featured_first">featured_first.php</filename>
+		<filename>index.html</filename>
+        <folder>language</folder>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+			</fieldset> 
+		</fields>
+	</config>
+</extension>
